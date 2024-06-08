@@ -9,6 +9,15 @@ if neither of them is smiling. Return true if we are in trouble.
 monkeyTrouble(true, true) → true
 monkeyTrouble(false, false) → true
 monkeyTrouble(true, false) → false
+
+Solution to CodingBat's:
+
+	public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+		if (aSmile && bSmile || !aSmile && !bSmile) {
+			return true;
+		}
+		return false;
+	}
  */
 
 public class q2_monkeyTrouble {

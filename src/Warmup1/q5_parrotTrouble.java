@@ -10,7 +10,8 @@ parrotTrouble(true, 6) → true
 parrotTrouble(true, 7) → false
 parrotTrouble(false, 6) → false
 
-SOLUTİON:
+Solution to CodingBat's:
+
 public boolean parrotTrouble(boolean talking, int hour) {
   if(talking && (hour < 7 || talking && hour > 20)) {
     return true;

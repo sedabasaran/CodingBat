@@ -9,7 +9,7 @@ diff21(19) → 2
 diff21(10) → 11
 diff21(21) → 0
 
-FOR CODİNBAT SOLUTİON: 
+Solution to CodingBat's:
 
 public int diff21(int n) {
   if(n > 21 ){
