@@ -1,4 +1,5 @@
 package Warmup1;
+
 /*
  * https://codingbat.com/prob/p159227
  * 
@@ -25,13 +26,13 @@ public class q8_posNeg {
 	public static void main(String[] args) {
 		System.out.println(posNeg(1, -5, false));
 	}
+
 	public static boolean posNeg(int a, int b, boolean negative) {
-		  if(negative) {
-		    return (a < 0 && b < 0);
-		  }
-		  else {
-		    return (a > 0 && b < 0) || (a < 0 && b > 0);
-		  }
+		if (negative) {
+			return (a < 0 && b < 0);
+		} else {
+			return (a > 0 && b < 0) || (a < 0 && b > 0);
 		}
+	}
 
 }

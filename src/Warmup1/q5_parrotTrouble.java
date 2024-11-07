@@ -24,14 +24,14 @@ public boolean parrotTrouble(boolean talking, int hour) {
 public class q5_parrotTrouble {
 	public static void main(String[] args) {
 		System.out.println(parrotTrouble(false, 8));
-	
-}
-	public static boolean parrotTrouble(boolean talking, int hour) {
-		  if(talking && (hour < 7 || talking && hour > 20)) {
-		    return true;
-		  }
-		  return false;
-		}
 
-	
+	}
+
+	public static boolean parrotTrouble(boolean talking, int hour) {
+		if (talking && (hour < 7 || talking && hour > 20)) {
+			return true;
+		}
+		return false;
+	}
+
 }

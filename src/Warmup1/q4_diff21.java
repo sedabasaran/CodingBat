@@ -23,12 +23,12 @@ public class q4_diff21 {
 	public static void main(String[] args) {
 		System.out.println(diff21(15));
 	}
-	
+
 	public static int diff21(int n) {
-		  if(n > 21 ){
-		    return Math.abs(n - 21)*2;
-		  }
-		  return 21-n;
+		if (n > 21) {
+			return Math.abs(n - 21) * 2;
 		}
+		return 21 - n;
+	}
 
 }

@@ -26,16 +26,16 @@ public class q29_lastDigit {
 	public static void main(String[] args) {
 		System.out.println();
 	}
-	public static boolean lastDigit(int a, int b) {
-		  
-		  int aRemainder = a % 10;
-		  int bRemainder = b % 10;
-		  
-		  if(aRemainder == bRemainder) {
-		    return true;
-		  }
-		  return false;
-		}
 
+	public static boolean lastDigit(int a, int b) {
+
+		int aRemainder = a % 10;
+		int bRemainder = b % 10;
+
+		if (aRemainder == bRemainder) {
+			return true;
+		}
+		return false;
+	}
 
 }

@@ -22,11 +22,11 @@ public class q10_missingChar {
 	public static void main(String[] args) {
 		System.out.println(missingChar("missing", 6));
 	}
-	
+
 	public static String missingChar(String str, int n) {
-		  String firstHalf = str.substring(0,n);
-		  String lastHalf = str.substring(n+1, str.length());
-		  return firstHalf + lastHalf;
-		}
+		String firstHalf = str.substring(0, n);
+		String lastHalf = str.substring(n + 1, str.length());
+		return firstHalf + lastHalf;
+	}
 
 }

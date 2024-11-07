@@ -1,4 +1,5 @@
 package Warmup1;
+
 /*
  * https://codingbat.com/prob/p191914
  * Given a string, return a new string where "not " has been added to the front.
@@ -26,10 +27,10 @@ public class q9_notString {
 	}
 
 	public static String notString(String str) {
-		  if (str.length() >= 3 && str.substring(0,3).equals("not")) {
-		    return str;
-		  } 
-		  return "not" + " " + str;
+		if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
+			return str;
 		}
+		return "not" + " " + str;
+	}
 
 }

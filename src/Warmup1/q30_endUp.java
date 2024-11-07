@@ -1,4 +1,5 @@
 package Warmup1;
+
 /*
  * https://codingbat.com/prob/p125268
 Given a string, return a new string where the last 3 chars are now in upper case. If the string has less than 3 
@@ -21,19 +22,18 @@ public String endUp(String str) {
 
  */
 public class q30_endUp {
-	
+
 	public static void main(String[] args) {
 		System.out.println(endUp("Hello"));
 	}
 
 	public static String endUp(String str) {
-		  if (str.length() <= 3) 
-		  return str.toUpperCase();
-		  
-		  String last = str.substring(str.length() - 3).toUpperCase();
-		  String front =  str.substring(0, str.length() - 3);
-		  return front + last;
-		}
+		if (str.length() <= 3)
+			return str.toUpperCase();
 
-		  
+		String last = str.substring(str.length() - 3).toUpperCase();
+		String front = str.substring(0, str.length() - 3);
+		return front + last;
+	}
+
 }
